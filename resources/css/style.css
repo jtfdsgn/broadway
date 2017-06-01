@@ -1,3 +1,40 @@
 html {
   text-align: center;
 }
+p, h1, h2, a {
+  font-family: Helvetica, sans-serif;
+  color: gray;
+}
+.header, .divider {
+  background-image: url("../images/the-flatiron-building.png")
+}
+.header p {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+nav a {
+  font-size: 18px;
+  color: white;
+}
+.list h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.item h2 {
+  font-size: 23px;
+  font-weight: bold;
+}
+.item p {
+  font-size: 14px;
+}
+.divider p {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.footer p {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
