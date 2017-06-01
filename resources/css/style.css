@@ -1,7 +1,7 @@
 html {
   text-align: center;
 }
-p, h1, h2, a {
+p, h1, h2 {
   font-family: Helvetica, sans-serif;
   color: gray;
 }
@@ -13,7 +13,7 @@ p, h1, h2, a {
   font-weight: bold;
   color: white;
 }
-nav a {
+nav a, .footer p a {
   font-size: 18px;
   color: white;
 }
@@ -33,8 +33,11 @@ nav a {
   font-weight: bold;
   color: white;
 }
+.footer {
+  text-align: left;
+  background-color: dimgray;
+}
 .footer p {
   font-size: 11px;
   color: white;
-  background-color: dimgray;
 }
